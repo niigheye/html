@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
+*{
+    color:#14171F;
+    margin: 1;
+    padding: 0;
+
+
+}
+body{
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+.header_content{
+    display:flex;
+    flex-direction: row;
+    margin: 16px 0;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left:112px;
+
+
+}
+.header_title{
+align-self:center;
+font-family: 'Work Sans', sans-serif;
+font-style: italic;
+color: #2947a9;
+font-size: 30px;
+}
+
+
+.header_inf ul li{
+    display: inline-flex;
+    gap: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    margin-right: 50px;
+}
+
+
+ a{
+    text-decoration:none;
+}
+
+.orange{
+font-family: 'Work Sans', sans-serif;
+font-weight: 600;
+color: #F9995D;
+}
+
+
+.back_pic img{
+    width: 100%;
+    object-fit: cover;
+    position:relative;
+    -webkit-mask-image: linear-gradient(to right top, transparent 5%, black 40%);
+  mask-image: linear-gradient(to top, transparent 5%, black 30%);
+}
+
+.base_title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    margin-left: 247px;
+    position:absolute;
+    
+}
+
+.back_pic{
+    position: relative;
+}
+
