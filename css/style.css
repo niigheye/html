@@ -132,10 +132,12 @@ color: #F9995D;
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    
 
 }
 
-.base back{
+.back{
     color: white;
-
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
