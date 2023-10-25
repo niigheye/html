@@ -22,9 +22,8 @@ body{
     align-items: center;
     gap: 14px;
     margin-left:112px;
-
-
 }
+
 .header_title{
 align-self:center;
 font-family: 'Work Sans', sans-serif;
@@ -53,25 +52,90 @@ font-weight: 600;
 color: #F9995D;
 }
 
-
 .back_pic img{
     width: 100%;
     object-fit: cover;
-    position:relative;
-    -webkit-mask-image: linear-gradient(to right top, transparent 5%, black 40%);
-  mask-image: linear-gradient(to top, transparent 5%, black 30%);
+    background: radial-gradient(white,transparent);
 }
+
+/*.back_pic img{
+    width: 100%;
+    object-fit: cover;
+ -webkit-mask-image: linear-gradient(to right top, transparent 5%, black 40%);
+  mask-image: linear-gradient(to top, transparent 5%, black 30%);
+}*/
 
 .base_title{
     font-family: 'Work Sans', sans-serif;
     font-size: 72px;
     font-weight: 600;
-    margin-left: 247px;
+    margin-left: 115px;
+    margin-top: 180px;
+
     position:absolute;
     
 }
 
-.back_pic{
-    position: relative;
+.base_container{
+    width: 270px;
+    height:120px;
+    margin-left:1130px;
+    margin-top:430px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #3559C7;
+    position:absolute;
+    align-items: center;
 }
 
+.small_title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color:white;
+}
+
+.small_text{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.back_container{
+    width: 135px;
+    height: 20px;
+    margin-left:1130px;
+    margin-top:590px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap:20px;
+    background-color:  #292E3D;
+    position:absolute;
+    align-items: center;
+}
+
+.next_container{
+    width: 135px;
+    height: 20px;
+    margin-left:1265px;
+    margin-top:590px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:  #292E3D;
+    position:absolute;
+    align-items: center;
+}
+
+.next{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+.back{
+    color: white;
+
+}
