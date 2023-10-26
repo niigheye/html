@@ -4,7 +4,7 @@
     color:#14171F;
     margin: 1;
     padding: 0;
-
+    box-sizing: border-box;
 
 }
 body{
@@ -16,6 +16,7 @@ body{
     display:flex;
     flex-direction: row;
     margin: 16px 0;
+    justify-content: space-between;
 }
 .header_logo{
     display: flex;
@@ -51,11 +52,19 @@ font-family: 'Work Sans', sans-serif;
 font-weight: 600;
 color: #F9995D;
 }
+.gradient img{
+    height: 648px;
+    width:100%;
+}
+
+.back_pic{
+    position: relative;
+}
 
 .back_pic img{
     width: 100%;
     object-fit: cover;
-    background: radial-gradient(white,transparent);
+    
 }
 
 /*.back_pic img{
@@ -79,14 +88,14 @@ color: #F9995D;
 .base_container{
     width: 270px;
     height:120px;
-    margin-left:1130px;
-    margin-top:430px;
-    display: flex;
+    position: absolute;
+    right:0;
+    bottom:0;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #3559C7;
-    position:absolute;
-    align-items: center;
+    align-items: flex-end;
+    border: 2px solid purple;
 }
 
 .small_title{
@@ -102,42 +111,57 @@ color: #F9995D;
 }
 
 .back_container{
-    width: 135px;
-    height: 20px;
-    margin-left:1130px;
-    margin-top:590px;
     display: flex;
-    flex-direction: column;
-    padding: 20px;
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    /* padding: 20px; */
     gap:20px;
     background-color:  #292E3D;
-    position:absolute;
-    align-items: center;
+   
 }
 
 .next_container{
-    width: 135px;
-    height: 20px;
-    margin-left:1265px;
-    margin-top:590px;
+    width: 50%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    padding: 20px;
+    flex-direction: row;
+    border: 2px solid green;
     background-color:  #292E3D;
-    position:absolute;
-    align-items: center;
+    
 }
 
 .next{
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    
-
 }
 
 .back{
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    text-align: center;
+    
+}
+.next_container svg{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid pink;
+    width: 20px;
+    height: auto;
+
+}
+.back_container svg{
+    display: flex;
+    border: 2px solid pink; 
+    width: 20px;
+    height: auto;
+}
+
+.move{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+    width: 100%;
 }
