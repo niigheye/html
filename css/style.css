@@ -80,7 +80,6 @@ color: #F9995D;
     font-weight: 600;
     margin-left: 115px;
     margin-top: 180px;
-
     position:absolute;
     
 }
@@ -90,24 +89,25 @@ color: #F9995D;
     height:120px;
     position: absolute;
     right:0;
-    bottom:0;
+    bottom:18.7%;
     flex-direction: column;
     /* padding: 20px; */
     background-color: #3559C7;
-    align-items: flex-end;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 }
 
 .small_title{
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     color:white;
+    text-align: center;
 }
 
 .small_text{
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
 .back_container{
@@ -116,8 +116,9 @@ color: #F9995D;
     height: 100%;
     flex-direction: row;
     /* padding: 20px; */
-    gap:20px;
     background-color:  #292E3D;
+    justify-content: center;
+    gap: 10px;
    
 }
 
@@ -125,9 +126,11 @@ color: #F9995D;
     width: 50%;
     height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     background-color:  #292E3D;
+    gap: 10px;
     
 }
 
@@ -141,27 +144,52 @@ color: #F9995D;
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    text-align: center;
+ 
     
 }
 .next_container svg{
     display: flex;
+    left: 20px;
     flex-direction: row;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     width: 20px;
     height: auto;
 
 }
 .back_container svg{
     display: flex;
-    border: 2px solid pink; 
+    /* border: 2px solid pink;  */
     width: 20px;
+    flex-direction: row;
     height: auto;
 }
 
 .move{
     display: flex;
     flex-direction: row;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 100%;
+}
+
+.bottom_title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color:#292E3D;
+    text-align: center;
+}
+
+.my_tasks{
+
+}
+
+.mt{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
 }
