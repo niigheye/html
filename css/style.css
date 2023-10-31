@@ -59,6 +59,7 @@ color: #F9995D;
 
 .back_pic{
     position: relative;
+    height:600px;
 }
 
 .back_pic img{
@@ -89,7 +90,7 @@ color: #F9995D;
     height:120px;
     position: absolute;
     right:0;
-    bottom:18.7%;
+    bottom: -15px;
     flex-direction: column;
     /* padding: 20px; */
     background-color: #3559C7;
@@ -119,6 +120,7 @@ color: #F9995D;
     background-color:  #292E3D;
     justify-content: center;
     gap: 10px;
+    border: none;
    
 }
 
@@ -131,6 +133,7 @@ color: #F9995D;
     /* border: 2px solid green; */
     background-color:  #292E3D;
     gap: 10px;
+    border: none;
     
 }
 
@@ -151,14 +154,15 @@ color: #F9995D;
     display: flex;
     left: 20px;
     flex-direction: row;
-    /* border: 2px solid pink; */
+     border: 2px solid pink; 
     width: 20px;
     height: auto;
+    
 
 }
 .back_container svg{
     display: flex;
-    /* border: 2px solid pink;  */
+     border: 2px solid pink;  
     width: 20px;
     flex-direction: row;
     height: auto;
@@ -171,25 +175,132 @@ color: #F9995D;
     width: 100%;
 }
 
+.border_box{
+    background-color: #F6F8F7; 
+    height: 1000px;
+    
+}
+
 .bottom_title{
+    padding:28px;
     font-family: 'Work Sans', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
     color:#292E3D;
     text-align: center;
 }
 
 .my_tasks{
+    width: 520px;
+    height: 540px;
+    position: absolute;
+    margin-left: 32%;
+    position: absolute;
+    margin-top: -28px;
+    background-color: white;
+    display: inline-block;
 
 }
 
-.mt{
+.my_tasks p{
     font-family: 'Work Sans', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-align: center;
+    margin-top: 11px;
+}
+
+.new_task{
+    display: flex;
+    width: 251px;
+    height: 41px;
+    margin-left: 20px;;
+    padding: 10px 8px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+}
+
+.new_task p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color:#A3AAC2;
+}
+
+.priority{
+    display: inline-flex;
+    padding: 10px 8px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid  #E0E3EB;
+    border-radius: 4px;
+    height: 41px;
+    width: 109px;
+    margin-left: 56%;
+    position: absolute;
+    top: 89px;
+
+}
+
+.priority p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color:  #A3AAC2;
+}
+
+.add_button p{
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.add_button{
+    display: inline-flex;
+    padding: 9px 25px 10px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2947A9;
+    border-radius: 10px;
+    height:40px;
+    width: 84px;
+    position: absolute;
+    border: none;
+    margin-left: 81%;
+    top: 89px;
+
+}
+
+.task_name1{
+    display: flex;
+    width: 480px;
+    height: 40px;
+    padding: 9px 346px 10px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 4%;
+    align-items: center;
+}
+
+.task_name1 p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
