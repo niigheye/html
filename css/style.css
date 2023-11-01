@@ -196,7 +196,6 @@ color: #F9995D;
     height: 540px;
     position: absolute;
     margin-left: 32%;
-    position: absolute;
     margin-top: -28px;
     background-color: white;
     display: inline-block;
@@ -339,4 +338,20 @@ color: #F9995D;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.name{
+    display: flex;
+    width: 132px;
+    padding: 10px 8px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    align-items: center;
+
+
 }
