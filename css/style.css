@@ -342,16 +342,120 @@ color: #F9995D;
 
 .name{
     display: flex;
-    width: 132px;
-    padding: 10px 8px;
+    width: 550px;
+    height: 200px;
     align-items: center;
     gap: 10px;
-    border: 1px solid #E0E3EB;
-    border-radius: 4px;
-    background-color: white;
     display: flex;
     position: absolute;
     align-items: center;
-
-
+    margin-top: 190px;
+    margin-left: 31%;
+    display: inline-block;
 }
+
+.form_element1{
+    display: flex;
+    width: 132px;
+    height: 41px;
+    padding: 10px 8px;
+    margin-left: -2px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid  #E0E3EB;
+    position: absolute;
+    background-color: #FFF;
+}
+
+.form_element1 p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16%;
+    padding:5px;
+    white-space: nowrap;
+    color:#A3AAC2;
+}
+
+.form_element2{
+    display: flex;
+    width: 418px;
+    height: 41px;
+    margin-left:132px;
+    padding: 10px 8px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid  #E0E3EB;
+    position: absolute;
+    background-color: #FFF;
+}
+
+.form_element2 p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:5px;
+    white-space: nowrap;
+    color:#A3AAC2;
+}
+
+.form_element3{
+    display: flex;
+    width: 550px;
+    height: 135px;
+    margin-top: 10.5%;
+    padding-left: 8px;
+    border-radius: 4px;
+    border: 1px solid  #E0E3EB;
+    position: absolute;
+    background-color: #FFF;
+}
+
+.form_element3 p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+    color:#A3AAC2;
+}
+
+.submit{
+    width: 751px;
+    height: 53px;
+    background-color: #2947A9;
+    border-radius: 2px;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display:flex;
+    border:none;
+    flex-direction: row;
+    margin-left: 24%;
+    margin-top: 460px;
+}
+
+.submit p{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* .footer{ 
+    height:70px;
+    width:100%;
+    background-color:#2947A9 ;
+    position: absolute;
+}*/
